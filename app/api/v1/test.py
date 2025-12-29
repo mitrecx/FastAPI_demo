@@ -54,7 +54,7 @@ async def read_items(filter_query: Annotated[FilterParams, Query()]):
 
 
 @router.get("/items/2", response_class=HTMLResponse)
-async def read_items():
+async def read_items2():
     return """
     <html>
         <head>
